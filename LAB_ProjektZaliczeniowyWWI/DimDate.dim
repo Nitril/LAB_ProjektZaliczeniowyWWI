@@ -295,7 +295,7 @@
           <Translations>
             <Translation dwd:design-time-name="aff08387-7f6f-428d-b1af-ad78ebedb6db">
               <Language>1045</Language>
-              <Caption>Miesiąc</Caption>
+              <Caption>Miesiac</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -306,7 +306,7 @@
           <Translations>
             <Translation dwd:design-time-name="8b68f6f9-a9c7-4ae1-9722-5e22420d0b10">
               <Language>1045</Language>
-              <Caption>Dzień</Caption>
+              <Caption>Dzien</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -340,7 +340,7 @@
           <Translations>
             <Translation dwd:design-time-name="281acb21-010e-4a94-a37e-8df2a58bfd0d">
               <Language>1045</Language>
-              <Caption>Miesiąc</Caption>
+              <Caption>Miesiac</Caption>
             </Translation>
           </Translations>
         </Level>
@@ -351,7 +351,7 @@
           <Translations>
             <Translation dwd:design-time-name="51dcb964-d188-4bfe-b4e4-6f4cd931f982">
               <Language>1045</Language>
-              <Caption>Dzień</Caption>
+              <Caption>Dzien</Caption>
             </Translation>
           </Translations>
         </Level>

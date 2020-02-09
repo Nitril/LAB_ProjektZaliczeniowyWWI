@@ -279,7 +279,7 @@
           <ddscontrol controlprogid="MSDDS.Polyline" left="13528" top="16553" logicalid="47" controlid="19" masterid="0" hint1="0" hint2="0" width="4448" height="4308" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
               </ddsxmlobj>
             </control>
             <layoutobject>
@@ -707,6 +707,15 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
+    <CubePermission dwd:design-time-name="58b5ed49-75d8-4e6c-98be-452a794cd04f">
+      <ID>CubePermission 1</ID>
+      <Name>CubePermission 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 2</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
   </CubePermissions>
   <Perspectives>
     <Perspective dwd:design-time-name="0fe96e1b-0a30-4424-99b0-df02a263b8c8">
@@ -717,7 +726,7 @@
       <Translations>
         <Translation dwd:design-time-name="b077528b-9db1-4b7e-83b0-697ecf4dc5cf">
           <Language>1045</Language>
-          <Caption>Księgowość</Caption>
+          <Caption>Ksiegowosc</Caption>
         </Translation>
       </Translations>
       <Dimensions>
@@ -1156,7 +1165,7 @@
       <Translations>
         <Translation dwd:design-time-name="09913c72-a3f3-4065-98f5-f705c450b3b9">
           <Language>1045</Language>
-          <Caption>PrzepływyMagazynowe</Caption>
+          <Caption>PrzeplywyMagazynowe</Caption>
         </Translation>
       </Translations>
       <Measures>
@@ -1174,7 +1183,7 @@
           <Translations>
             <Translation dwd:design-time-name="c2ac5561-906d-4f3b-b67a-4014a003913c">
               <Language>1045</Language>
-              <Caption>Ilość</Caption>
+              <Caption>Ilosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1193,7 +1202,7 @@
           <Translations>
             <Translation dwd:design-time-name="3baff549-e0b4-434f-bfcf-b01075a6f0b0">
               <Language>1045</Language>
-              <Caption>LiczbaPrzepływów</Caption>
+              <Caption>LiczbaPrzeniesien</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1306,7 +1315,7 @@
           <Translations>
             <Translation dwd:design-time-name="14ce8b6a-fbbe-42a9-813e-0f06bfea4a24">
               <Language>1045</Language>
-              <Caption>ZamówienieIlość</Caption>
+              <Caption>ZamowienieIlosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1342,7 +1351,7 @@
           <Translations>
             <Translation dwd:design-time-name="65412f77-c31a-4050-8dff-d99de1dbd76a">
               <Language>1045</Language>
-              <Caption>WartośćPodatkuu</Caption>
+              <Caption>WartoscPodatkuu</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1397,7 +1406,7 @@
           <Translations>
             <Translation dwd:design-time-name="c9648705-f075-44dc-9985-e6ac1edad380">
               <Language>1045</Language>
-              <Caption>LiczbaZamówień</Caption>
+              <Caption>LiczbaZamowien</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1508,7 +1517,7 @@
           <Translations>
             <Translation dwd:design-time-name="64445652-b459-497f-a9cf-97a488d607f8">
               <Language>1045</Language>
-              <Caption>Zamówione</Caption>
+              <Caption>Zamowione</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1526,7 +1535,7 @@
           <Translations>
             <Translation dwd:design-time-name="3d0e152a-9592-4fd8-8433-66c617d6edfa">
               <Language>1045</Language>
-              <Caption>ZakupyIlość</Caption>
+              <Caption>ZakupyIlosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1563,7 +1572,7 @@
           <Translations>
             <Translation dwd:design-time-name="928b1834-0e91-4bee-aaa9-1ec513436978">
               <Language>1045</Language>
-              <Caption>LiczbaZakupów</Caption>
+              <Caption>LiczbaZakupow</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1638,7 +1647,7 @@
       <Translations>
         <Translation dwd:design-time-name="571ca1a8-7dab-4282-9744-d456db817a7b">
           <Language>1045</Language>
-          <Caption>Sprzedaż</Caption>
+          <Caption>Sprzedaz</Caption>
         </Translation>
       </Translations>
       <Measures>
@@ -1656,7 +1665,7 @@
           <Translations>
             <Translation dwd:design-time-name="92873331-e805-413c-a71b-ffab1772e714">
               <Language>1045</Language>
-              <Caption>Ilość</Caption>
+              <Caption>Ilosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1764,7 +1773,7 @@
           <Translations>
             <Translation dwd:design-time-name="8f08ff35-0601-4b61-ad65-6b88962e1d0b">
               <Language>1045</Language>
-              <Caption>SucheTowaryIlość</Caption>
+              <Caption>SucheTowaryIlosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1782,7 +1791,7 @@
           <Translations>
             <Translation dwd:design-time-name="e418ca45-4151-445f-9f6b-e06e71c473e9">
               <Language>1045</Language>
-              <Caption>ChłodniaTowaryIlość</Caption>
+              <Caption>ChlodniaTowaryIlosc</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1801,7 +1810,7 @@
           <Translations>
             <Translation dwd:design-time-name="8110f891-3db2-404d-98bb-e1e4389f0107">
               <Language>1045</Language>
-              <Caption>LiczbaSprzedaży</Caption>
+              <Caption>LiczbaSprzedazy</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1931,7 +1940,7 @@
           <Translations>
             <Translation dwd:design-time-name="d1e67ebc-bac9-4bc0-8f7f-25c7364f8ee2">
               <Language>1045</Language>
-              <Caption>IlośćNaMagazynie</Caption>
+              <Caption>IloscNaMagazynie</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -2085,6 +2094,126 @@ VISIBLE = 1  ; </Text>
         <CalculationProperty dwd:design-time-name="a238ba21-2965-4328-ad5b-10248574bda8">
           <CalculationReference>[Measures].[Calculated Member]</CalculationReference>
           <CalculationType>Member</CalculationType>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="da9bca58-096c-4e74-97e8-d61c8ab21df2">
+          <CalculationReference>[Measures].[MovementAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="047d7215-ed4f-43a0-a4a6-e1a12abcf5b5">
+              <Language>1045</Language>
+              <Caption>SrednioPrzeniesione</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="cee35e19-1287-41a8-8fa1-0dc003467527">
+          <CalculationReference>[Measures].[OrderAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="5e942676-a641-463a-b006-cfee5ab0163b">
+              <Language>1045</Language>
+              <Caption>SrednioZamowione</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="2a530e7d-c2bb-4e08-9266-c7758710e38a">
+          <CalculationReference>[Measures].[OrderTaxAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="5102daf4-dfb9-4132-882e-6820c6042e46">
+              <Language>1045</Language>
+              <Caption>SrednioPodatekZamowiena</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="e8b9c41e-0e2e-426e-ae3a-1943fa34f6a6">
+          <CalculationReference>[Measures].[OrderNetAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="65b80a6d-d66b-4d9d-b575-3d0a1c7fab51">
+              <Language>1045</Language>
+              <Caption>SrednioWartoscZamowieniaNetto</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="cc1e2c92-a461-4e8c-8e31-a93940bf1219">
+          <CalculationReference>[Measures].[OrderGrossAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="5f7da386-9e5d-43ae-8de4-85d6c64120a9">
+              <Language>1045</Language>
+              <Caption>SrednioWartoscZamowienia</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="2d60bb2b-7503-4ae0-a8e9-649fa5ca8345">
+          <CalculationReference>[Measures].[SaleTaxAmountAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="658c3b80-7731-4bca-b474-a9a92a7fa83f">
+              <Language>1045</Language>
+              <Caption>SredniPodatekSprzedazy</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="f4d99265-095d-44c7-865c-27e6d8d3d310">
+          <CalculationReference>[Measures].[PurchaseAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="f02d35e2-d574-4927-9733-c3eb14293568">
+              <Language>1045</Language>
+              <Caption>SredniZakup</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="bd7e3507-f320-4502-a1c0-ecf1b2fee255">
+          <CalculationReference>[Measures].[SaleProfitAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="e8034f57-5b61-4551-818f-254647ed974a">
+              <Language>1045</Language>
+              <Caption>SredniZyskSprzedaz</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="92d0f1b4-a54b-4232-bbc7-bc10aa0ffc1f">
+          <CalculationReference>[Measures].[SalesAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1df8d2e0-a7cc-4b5a-b235-fb5c20d249b0">
+              <Language>1045</Language>
+              <Caption>SredniaSprzedaz</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="90502adc-66bb-4f09-90bc-be6671756701">
+          <CalculationReference>[Measures].[StockLastChange]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="a49740b5-4bba-4d8e-87eb-d4287ed3a000">
+              <Language>1045</Language>
+              <Caption>OstatniaZmiana</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="fd847872-1efb-429e-8ff1-8d70ec24b5e8">
+          <CalculationReference>[Measures].[SaleDryItemAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="57fc327e-2840-4cd8-b1e9-39616c337604">
+              <Language>1045</Language>
+              <Caption>SredniaIloscSuchych</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="dd7bac7b-4136-4b9a-94c8-d4a802cf03d8">
+          <CalculationReference>[Measures].[ChillerItemAvg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="6fe10f9f-7e90-477a-a18f-49d548c22c75">
+              <Language>1045</Language>
+              <Caption>SredniaIloscChlodzonych</Caption>
+            </Translation>
+          </Translations>
         </CalculationProperty>
       </CalculationProperties>
     </MdxScript>

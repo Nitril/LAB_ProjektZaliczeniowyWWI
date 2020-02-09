@@ -65,6 +65,10 @@
       <Name>Full Reader.role</Name>
       <FullPath>Full Reader.role</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Ograniczona.role</Name>
+      <FullPath>Ograniczona.role</FullPath>
+    </ProjectItem>
   </Roles>
   <Configurations>
     <Configuration>
