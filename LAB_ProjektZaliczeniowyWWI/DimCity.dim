@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6e0fb502-cfa5-476a-aac8-8f31e56484ee" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e98d1015-a07e-4fd7-815e-6d382fe1e3cf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimCity</ID>
   <Name>DimCity</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -119,39 +119,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ed27d9d1-9064-4717-b34d-c0ef9a1a4f04">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f5881169-82dd-4716-889e-0cf68cc8fb24">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b7f8c296-4a6f-485a-9daa-eea9ed42d0d5">
+  <ErrorConfiguration dwd:design-time-name="83282f9a-c424-4cf9-bb14-6f508bf5ef2e">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="e2b24366-5129-4156-b2a6-8316ed6fe76d">
+      <Language>1045</Language>
+      <Caption>Miasta</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="ad166df2-cffb-40ca-b0cb-17d390846d9f">
+    <Attribute dwd:design-time-name="ec92f682-9fa9-45c2-8b48-2316c2267edc">
       <ID>City Key</ID>
       <Name>City Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4abcf569-913f-4d3a-8998-54d2d127d731">
+        <KeyColumn dwd:design-time-name="e131195e-ae2f-445d-8f47-4200b5e72338">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="298ff937-19c5-47da-ace2-2d5bba8a889a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12203060-080a-410c-969c-d1c3f1d065c2">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>City_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="9fecdd1f-77aa-489a-bb1d-2366b6e40995">
+      <NameColumn dwd:design-time-name="4e04cecb-f57b-454c-becd-6b9f251281b5">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="461af6dc-2263-4c08-9b11-e5da9dca6694">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="942c90f3-6d81-491b-a102-f7862117c720">
           <TableID>olap_vDimCity</TableID>
           <ColumnID>City</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="68d2d310-41aa-4aa3-aaea-e709c2a91616">
+          <Language>1045</Language>
+          <Caption>Miasto</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="781f6a0f-beac-4890-9509-0d8c1a064afb">
+        <AttributeRelationship dwd:design-time-name="007ff835-777f-4da2-8b68-b51cc6007db5">
           <AttributeID>State Province</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>State Province</Name>
@@ -160,176 +172,229 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f88fd4ed-d8ad-4b78-a8d5-5bfedd8c3b2c">
+    <Attribute dwd:design-time-name="93e2ddcc-a6e0-468f-a342-73042608c2c3">
       <ID>Country</ID>
       <Name>Country</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="dd7b691a-e560-4ee0-a88a-f965ee663809">
+        <KeyColumn dwd:design-time-name="01b0ced0-5e4a-4b83-9eb7-8b132b450198">
           <DataType>WChar</DataType>
           <DataSize>60</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5f87512b-f82c-43cc-8e6f-c8df89a691a6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="406ff78c-720f-4e91-864e-688e6edb50d6">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>Country</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f08b6de2-69c1-451c-becc-aa25f11ddfdf">
+        <AttributeRelationship dwd:design-time-name="551d71bc-b50c-41dc-8911-cfe78697f32b">
           <AttributeID>Continent</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Continent</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ba3514f1-089f-4a33-9506-9cc0e8a2fc60">
+    <Attribute dwd:design-time-name="92b70a55-3b2f-4032-9fce-8ae4a81fdfcc">
       <ID>Continent</ID>
       <Name>Continent</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="49b88d51-c2b3-4d3f-8ac1-e56c8252261d">
+        <KeyColumn dwd:design-time-name="253a70e5-a40d-4388-bc90-bbc6fa48a928">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1be351e-6db4-4288-8a6e-a1e566a5c588">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be6c360e-c509-4415-88df-48d48ed0002b">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>Continent</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="6f928d45-f29a-4ad5-8070-e9e691b789bb">
+        <AttributeRelationship dwd:design-time-name="6e7a509e-98c6-4e40-be55-538feab97534">
           <AttributeID>Subregion</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Subregion</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ce464992-a167-40fa-bbee-2a9e534ca525">
+    <Attribute dwd:design-time-name="0f857eb1-5fd1-491b-9257-89a84cb69658">
       <ID>Region</ID>
       <Name>Region</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a568a2b9-f8c4-48b8-88e2-fafd127e820a">
+        <KeyColumn dwd:design-time-name="4c2219e7-6ff0-479f-9a0c-b3ac5deba5bf">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="96f4cc97-b8ff-4493-86c9-de752e9b5082">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa9a4040-4e5f-448f-8a9b-5f2268348e2d">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>Region</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="bb6ac0ce-1db1-404a-bc0c-ce6fd0d8c18b">
+    <Attribute dwd:design-time-name="5ec40f90-741c-4f17-8244-3b1cf0efc230">
       <ID>Subregion</ID>
       <Name>Subregion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d9c338df-b69c-4afd-b34d-5afc8ce129ba">
+        <KeyColumn dwd:design-time-name="0da49673-7859-480e-9e8a-f977a9cd2d91">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7e70a7c-baaa-40f3-bc55-8b3994beb02a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="067e99f9-691a-4a8f-ac0c-a41e71524438">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>Subregion</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="dbec5fb2-7db3-42f9-903c-3d7bad847b90">
+        <AttributeRelationship dwd:design-time-name="448c25f4-56c8-4a01-b3a0-301c34bbbf16">
           <AttributeID>Region</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Region</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="daa50540-ee5d-422b-b928-6303c83c1cc6">
+    <Attribute dwd:design-time-name="93ab4f10-f17f-4e8d-9d22-dd1dd7ac8e1f">
       <ID>Sales Territory</ID>
       <Name>Sales Territory</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c83a913e-3132-49ec-bac1-c039b0d9f336">
+        <KeyColumn dwd:design-time-name="473f82f7-4235-4053-b8e5-a6864991ef96">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2be862f7-8cea-42a4-bbe1-b5d90393c58c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcf61233-db8c-43e1-8302-b22ddda8c726">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>Sales_x0020_Territory</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8e605c53-5d57-4b6b-b4fc-53416986897d">
+        <AttributeRelationship dwd:design-time-name="b769f44d-0673-4e50-a6da-f2f14968a818">
           <AttributeID>Country</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Country</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b886d60a-d136-497f-a36e-8c8b587f3f2e">
+    <Attribute dwd:design-time-name="3d78deba-ee5d-4f4b-809a-18db88fa93fc">
       <ID>State Province</ID>
       <Name>State Province</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7b7164fd-ce26-48e8-9b3a-c3948533a045">
+        <KeyColumn dwd:design-time-name="f9d0a0cc-3324-4a25-a71e-65ddbcd1b6f2">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffd30ab7-6135-413d-b44a-635bdaef8af2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7aef0dd4-f33b-4720-9d18-54eef3fafe0e">
             <TableID>olap_vDimCity</TableID>
             <ColumnID>State_x0020_Province</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="78819d7a-5769-4ce7-b20d-277742b0a5d4">
+        <AttributeRelationship dwd:design-time-name="afb10d1d-71a1-49e7-8291-ae14429319dd">
           <AttributeID>Sales Territory</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Sales Territory</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="d48481f8-7c09-4871-9ae6-10a6d1527791">
+    <Hierarchy dwd:design-time-name="7253045a-7faf-4eb8-af64-a8595e97f3ff">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="85bfeb31-8296-4327-afe3-49dd0405354f">
+        <Level dwd:design-time-name="dd783205-d4ec-496a-b213-fe4ecc50d452">
           <ID>Region</ID>
           <Name>Region</Name>
           <SourceAttributeID>Region</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="85bc1c8a-c8df-40e6-b231-77391973843d">
+              <Language>1045</Language>
+              <Caption>Region</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="f3dfe718-9f57-4498-935b-63e62e2445fd">
+        <Level dwd:design-time-name="302c95f5-ac12-4fe9-a1f5-71d2980b735e">
           <ID>Subregion</ID>
           <Name>Subregion</Name>
           <SourceAttributeID>Subregion</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="637f65e5-5f61-4850-a3ac-1386ce70b62c">
+              <Language>1045</Language>
+              <Caption>SubRegion</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="0c8c6128-a69e-40fd-acbe-09bfacdb9dff">
+        <Level dwd:design-time-name="772bb020-528e-407b-8dec-f1da836be3df">
           <ID>Continent</ID>
           <Name>Continent</Name>
           <SourceAttributeID>Continent</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="6d2d5b96-8048-4546-83ce-dc9aabcaca13">
+              <Language>1045</Language>
+              <Caption>Kontynent</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="9d768dac-2f07-470c-8cfe-07ebb67f725b">
+        <Level dwd:design-time-name="175e0cad-bfda-4ac8-8eb7-f0bb35f3d4b9">
           <ID>Country</ID>
           <Name>Country</Name>
           <SourceAttributeID>Country</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="2c4b509b-813a-43e7-8367-f2f4a8451759">
+              <Language>1045</Language>
+              <Caption>Państwo</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="69363196-a02a-4156-a675-619c76ab6728">
+        <Level dwd:design-time-name="c46d48fd-a920-4690-9235-533103cddebc">
           <ID>Sales Territory</ID>
           <Name>Sales Territory</Name>
           <SourceAttributeID>Sales Territory</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ad210600-af27-481c-b6a6-89434656b910">
+              <Language>1045</Language>
+              <Caption>TerytoriumSprzedaży</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="71bf410a-d783-4583-bb95-c6bd28fe70f4">
+        <Level dwd:design-time-name="4d90c914-7b0a-4275-a306-d974672c9eb7">
           <ID>State Province</ID>
           <Name>State Province</Name>
           <SourceAttributeID>State Province</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4f1cac82-d4ac-4d66-87e1-4fbfa128fc6c">
+              <Language>1045</Language>
+              <Caption>Prowincja</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="b3574d5d-3c25-460e-bb9a-a95e05736a01">
+          <ID>City Key</ID>
+          <Name>City Key</Name>
+          <SourceAttributeID>City Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="5e09a4c0-af4c-426b-a36a-f3e2597fe41e">
+              <Language>1045</Language>
+              <Caption>Miasto</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

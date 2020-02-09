@@ -514,6 +514,12 @@
     <Dimension dwd:design-time-name="081b573f-9b8d-4aba-ad57-60e30b1bed1f">
       <ID>DimCustomer</ID>
       <Name>DimCustomer</Name>
+      <Translations>
+        <Translation dwd:design-time-name="d0209b24-a836-4d96-bb25-e6bd48f770bf">
+          <Language>1045</Language>
+          <Caption>Klienci</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimCustomer</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="5925eb68-61d9-47ca-ac24-2ee742196121">
@@ -535,6 +541,12 @@
     <Dimension dwd:design-time-name="9fe3aa1d-d891-4955-a229-5575de563436">
       <ID>DimSupplier</ID>
       <Name>DimSupplier</Name>
+      <Translations>
+        <Translation dwd:design-time-name="82c1a703-8a25-4b79-bd79-b7e4bb71ddcf">
+          <Language>1045</Language>
+          <Caption>Dostawcy</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimSupplier</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="b4636dab-9385-4184-a9c2-14fb0b74fa70">
@@ -544,10 +556,21 @@
           <AttributeID>Category</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3fd1dc48-0332-4f53-9a0a-8c43828ed5f2">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="fb70befd-a5ef-4c8e-96b7-82f5ed3a30e5">
       <ID>DimStockItem</ID>
       <Name>DimStockItem</Name>
+      <Translations>
+        <Translation dwd:design-time-name="df6af402-36c0-4fa0-b3ac-1e0f415ad2bb">
+          <Language>1045</Language>
+          <Caption>MagazynPrzedmioty</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimStockItem</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="fc8fd6a0-22d2-4208-8c00-cb8d9534e0c6">
@@ -555,12 +578,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="0d90ef8d-44e1-4878-8e59-2ce784b80bf6">
           <AttributeID>Color</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="1f5e50e3-6802-414e-9e82-8ee3a7c0d019">
-          <AttributeID>Selling Package</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c5a1eec6-3395-462f-a1ae-0589bf8a5fa5">
-          <AttributeID>Buying Package</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="8056b7c1-7a21-4475-a7b1-99dced4ee713">
           <AttributeID>Brand</AttributeID>
@@ -588,6 +605,12 @@
     <Dimension dwd:design-time-name="42707991-8e02-4cb1-89a3-969ac64279ec">
       <ID>DimEmployee</ID>
       <Name>DimEmployee</Name>
+      <Translations>
+        <Translation dwd:design-time-name="ee7ce0c2-14af-4f42-ab77-e15ed5c9f781">
+          <Language>1045</Language>
+          <Caption>Pracownicy</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimEmployee</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="27c4ef85-ea8c-42d4-895f-088f56a7ad8e">
@@ -601,6 +624,12 @@
     <Dimension dwd:design-time-name="47d57424-27c4-42f4-bf8f-0e1e9c7f3a65">
       <ID>DimCity</ID>
       <Name>DimCity</Name>
+      <Translations>
+        <Translation dwd:design-time-name="721bc110-878c-41e5-ae1e-058d7da25951">
+          <Language>1045</Language>
+          <Caption>Miasta</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimCity</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="0eeddacf-2719-4f7a-9aad-bcc73d4657b8">
@@ -634,6 +663,12 @@
     <Dimension dwd:design-time-name="b020ce0f-845a-4200-a78b-d5d06d3b0045">
       <ID>DimDate</ID>
       <Name>DimDate</Name>
+      <Translations>
+        <Translation dwd:design-time-name="44b769c3-3187-443c-bb76-70b1e3b47b20">
+          <Language>1045</Language>
+          <Caption>Daty</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimDate</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="c872cb09-af2e-457f-8e59-a12d7d703cf6">
@@ -679,6 +714,12 @@
       <Name>Accounting</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="b077528b-9db1-4b7e-83b0-697ecf4dc5cf">
+          <Language>1045</Language>
+          <Caption>Księgowość</Caption>
+        </Translation>
+      </Translations>
       <Dimensions>
         <Dimension dwd:design-time-name="f5bf0d16-1211-4d3f-b480-d3ee16f005f7">
           <CubeDimensionID>DimCustomer</CubeDimensionID>
@@ -707,12 +748,6 @@
             </Attribute>
             <Attribute dwd:design-time-name="30307080-d52e-4b75-ba34-8ba8bb34e9c9">
               <AttributeID>Color</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="e830fa3d-da3b-48ba-abe5-3b37a682a6b9">
-              <AttributeID>Selling Package</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="a50ee3ca-b39b-4391-98e8-e43886064d8c">
-              <AttributeID>Buying Package</AttributeID>
             </Attribute>
             <Attribute dwd:design-time-name="51f893e2-e5b3-4c3c-88a0-db6d3594731d">
               <AttributeID>Brand</AttributeID>
@@ -945,6 +980,12 @@
       <Name>Warehouse</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="b1cc5d25-f651-444d-828c-4dda9192ab0c">
+          <Language>1045</Language>
+          <Caption>Magazyn</Caption>
+        </Translation>
+      </Translations>
       <Dimensions>
         <Dimension dwd:design-time-name="5b8b6392-9fd7-424d-a3bf-3c99476c171c">
           <CubeDimensionID>DimCustomer</CubeDimensionID>
@@ -984,12 +1025,6 @@
             </Attribute>
             <Attribute dwd:design-time-name="cb56472b-6086-44a7-b39a-69ebfc98f610">
               <AttributeID>Color</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="80c9aa33-c330-446e-8b6a-48955daae199">
-              <AttributeID>Selling Package</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="8e154d67-9137-4c54-a633-a3971bcf6fc9">
-              <AttributeID>Buying Package</AttributeID>
             </Attribute>
             <Attribute dwd:design-time-name="a9cf0675-c879-464d-a232-3645c2cd1b25">
               <AttributeID>Brand</AttributeID>
@@ -1118,6 +1153,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="09913c72-a3f3-4065-98f5-f705c450b3b9">
+          <Language>1045</Language>
+          <Caption>PrzepływyMagazynowe</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="b262bb68-1bb5-4a1f-88c4-6b55a4ad2e8b">
           <ID>Quantity</ID>
@@ -1130,6 +1171,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="c2ac5561-906d-4f3b-b67a-4014a003913c">
+              <Language>1045</Language>
+              <Caption>Ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="e725e968-1cbf-4f5f-be51-a7080f05c38b">
           <ID>v Fact Movement Count</ID>
@@ -1143,6 +1190,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="3baff549-e0b4-434f-bfcf-b01075a6f0b0">
+              <Language>1045</Language>
+              <Caption>LiczbaPrzepływów</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -1232,6 +1285,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="13308c2e-821d-4045-81fa-79a7e41eb4b5">
+          <Language>1045</Language>
+          <Caption>Zamówienia</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="bea21b32-048b-4eda-ad05-1c0c9c0671eb">
           <ID>Quantity - v Fact Order</ID>
@@ -1244,6 +1303,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="14ce8b6a-fbbe-42a9-813e-0f06bfea4a24">
+              <Language>1045</Language>
+              <Caption>ZamówienieIlość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="a5d1fd58-40a3-41c1-97c2-0e792767d0cd">
           <ID>Unit Price</ID>
@@ -1256,6 +1321,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="617a15bb-0606-4f52-839d-8948a762dc71">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="34f061a8-73be-437c-a92e-811a66ed3894">
           <ID>Tax Amount</ID>
@@ -1268,6 +1339,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="65412f77-c31a-4050-8dff-d99de1dbd76a">
+              <Language>1045</Language>
+              <Caption>WartośćPodatkuu</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="94d493ee-40ff-444d-bacd-83f3d8d31a41">
           <ID>Total Excluding Tax</ID>
@@ -1280,6 +1357,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="40f337a9-1261-4144-94bd-4703cc170330">
+              <Language>1045</Language>
+              <Caption>CenaBezPodatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b241a92d-53d0-41eb-969e-1beafc91bea5">
           <ID>Total Including Tax</ID>
@@ -1292,6 +1375,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="aa7a40f5-638a-4ef6-91b4-b74b5e3737ad">
+              <Language>1045</Language>
+              <Caption>CenaZPodatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="3e37cb65-d735-4828-a18c-1d00a18a186b">
           <ID>v Fact Order Count</ID>
@@ -1305,6 +1394,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="c9648705-f075-44dc-9985-e6ac1edad380">
+              <Language>1045</Language>
+              <Caption>LiczbaZamówień</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -1392,6 +1487,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="65fa0137-c42a-441c-8730-1c2b4b129f93">
+          <Language>1045</Language>
+          <Caption>Zakupy</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="54615831-95fb-4cce-8539-05d2100cfe42">
           <ID>Ordered Outers</ID>
@@ -1404,6 +1505,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="64445652-b459-497f-a9cf-97a488d607f8">
+              <Language>1045</Language>
+              <Caption>Zamówione</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="208b038c-04dd-48e3-90fd-b0cadfbd9594">
           <ID>Ordered Quantity</ID>
@@ -1416,6 +1523,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="3d0e152a-9592-4fd8-8433-66c617d6edfa">
+              <Language>1045</Language>
+              <Caption>ZakupyIlość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="c6917a15-5697-4089-8a7b-36ee65bf9d5a">
           <ID>Received Outers</ID>
@@ -1428,6 +1541,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="a80ad084-1cf9-49b0-8ac3-82a799081f6e">
+              <Language>1045</Language>
+              <Caption>Otrzymane</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b569470d-6bb6-464b-8397-0f169e9d70b8">
           <ID>v Fact Purchase Count</ID>
@@ -1441,6 +1560,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="928b1834-0e91-4bee-aaa9-1ec513436978">
+              <Language>1045</Language>
+              <Caption>LiczbaZakupów</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -1510,6 +1635,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="571ca1a8-7dab-4282-9744-d456db817a7b">
+          <Language>1045</Language>
+          <Caption>Sprzedaż</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="f13a92df-838b-4600-a857-d484f3434528">
           <ID>Quantity - v Fact Sale</ID>
@@ -1522,6 +1653,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="92873331-e805-413c-a71b-ffab1772e714">
+              <Language>1045</Language>
+              <Caption>Ilość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="5238a448-e0fc-4dc9-8d1d-c9815d3b69db">
           <ID>Unit Price - v Fact Sale</ID>
@@ -1534,6 +1671,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="d76014e7-cdb2-4dbc-81ac-9e39f272cc6a">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="f611d635-a626-409b-aea0-afc23fd4e6b4">
           <ID>Total Excluding Tax - v Fact Sale</ID>
@@ -1546,6 +1689,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="2307cc10-f0b6-4897-b7f4-a58d09858053">
+              <Language>1045</Language>
+              <Caption>CenaBezPodatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="4ac9d2a7-993b-4c8c-ba76-50a1f7d47355">
           <ID>Tax Amount - v Fact Sale</ID>
@@ -1558,6 +1707,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="fe5091b0-35da-4447-94a7-bc2ee71d9de9">
+              <Language>1045</Language>
+              <Caption>Podatek</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="0a2f5e53-e8ab-4dea-90ba-d6f7b71b7ad5">
           <ID>Profit</ID>
@@ -1570,6 +1725,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="8c020f36-993e-47a4-adc8-72753de0d99e">
+              <Language>1045</Language>
+              <Caption>Zysk</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="60171cd4-433d-4006-a19f-7b6dde445a5c">
           <ID>Total Including Tax - v Fact Sale</ID>
@@ -1582,6 +1743,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="34961be6-47c5-4252-ba20-ebc7c0d326cb">
+              <Language>1045</Language>
+              <Caption>CenaZPodatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="060e4e06-4f9e-462c-9f0f-d31e9eae62ed">
           <ID>Total Dry Items</ID>
@@ -1594,6 +1761,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="8f08ff35-0601-4b61-ad65-6b88962e1d0b">
+              <Language>1045</Language>
+              <Caption>SucheTowaryIlość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="5fba7c23-b14f-4f73-8040-838e4eec5689">
           <ID>Total Chiller Items</ID>
@@ -1606,6 +1779,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="e418ca45-4151-445f-9f6b-e06e71c473e9">
+              <Language>1045</Language>
+              <Caption>ChłodniaTowaryIlość</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="c855794c-b9fd-466a-bf84-57f9161ac696">
           <ID>v Fact Sale Count</ID>
@@ -1619,6 +1798,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="8110f891-3db2-404d-98bb-e1e4389f0107">
+              <Language>1045</Language>
+              <Caption>LiczbaSprzedaży</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
@@ -1725,6 +1910,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="7f72eb07-786d-49dc-aa9b-1a32e8fead51">
+          <Language>1045</Language>
+          <Caption>Magazyn</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="ac111655-cb50-408e-a109-7ddf968024da">
           <ID>Quantity On Hand</ID>
@@ -1737,6 +1928,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="d1e67ebc-bac9-4bc0-8f7f-25c7364f8ee2">
+              <Language>1045</Language>
+              <Caption>IlośćNaMagazynie</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="1bbe95ff-415f-46b9-88c3-caebc587c5a8">
           <ID>Last Stocktake Quantity</ID>
@@ -1749,6 +1946,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="f6cbe6e5-a0ea-4573-8eb4-affc8714d82e">
+              <Language>1045</Language>
+              <Caption>OstatniStanMagazynowy</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="f7d8d2f9-069b-4c64-bd5f-196e9311b1c8">
           <ID>Last Cost Price</ID>
@@ -1761,6 +1964,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="1b894427-1103-486e-afc1-69b3845ae8ac">
+              <Language>1045</Language>
+              <Caption>PoprzedniaCena</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="7b69617c-a4b2-424e-a2ee-cbab11814df3">
           <ID>v Fact Stock Holding Count</ID>
