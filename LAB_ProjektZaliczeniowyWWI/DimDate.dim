@@ -174,10 +174,10 @@
       </KeyColumns>
       <NameColumn dwd:design-time-name="dd8797cf-aa04-4621-90eb-b9384227c856">
         <DataType>WChar</DataType>
-        <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="647e6c5d-0a9b-4c03-a52d-5823435624ae">
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d46f7290-b404-45ea-8021-e5b61b64f3f2">
           <TableID>olap_vDimDate</TableID>
-          <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
+          <ColumnID>Month</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
@@ -230,10 +230,10 @@
       </KeyColumns>
       <NameColumn dwd:design-time-name="c5f09a89-e61c-43b7-a572-afd3125a0a54">
         <DataType>WChar</DataType>
-        <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="35a12001-afd6-4662-a698-e288c4c0fa55">
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="81c77c6f-796f-4692-8751-2c286ceeb310">
           <TableID>olap_vDimDate</TableID>
-          <ColumnID>Fiscal_x0020_Month_x0020_Label</ColumnID>
+          <ColumnID>Month</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
