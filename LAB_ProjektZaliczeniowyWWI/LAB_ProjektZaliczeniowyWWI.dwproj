@@ -6,11 +6,19 @@
     <Name>LAB_ProjektZaliczeniowyWWI.database</Name>
     <FullPath>LAB_ProjektZaliczeniowyWWI.database</FullPath>
   </Database>
-  <Dimensions>
+  <Cubes>
     <ProjectItem>
-      <Name>DimDate.dim</Name>
-      <FullPath>DimDate.dim</FullPath>
+      <Name>WideWorldImportersCube.cube</Name>
+      <FullPath>WideWorldImportersCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WideWorldImportersCube.partitions</Name>
+          <FullPath>WideWorldImportersCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
     </ProjectItem>
+  </Cubes>
+  <Dimensions>
     <ProjectItem>
       <Name>DimCity.dim</Name>
       <FullPath>DimCity.dim</FullPath>
@@ -31,6 +39,10 @@
       <Name>DimSupplier.dim</Name>
       <FullPath>DimSupplier.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimDate.dim</Name>
+      <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -44,6 +56,16 @@
       <FullPath>Wide World Importers DW.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Admin.role</Name>
+      <FullPath>Admin.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Full Reader.role</Name>
+      <FullPath>Full Reader.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
