@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a0a79056-a921-4f08-9640-c950389d4829" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4ad0c089-2606-4020-81db-c672428010cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimCustomer</ID>
-  <Name>DimCustomer</Name>
+  <Name>Customer</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -95,53 +95,53 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4ecce714-f864-414e-b914-02b10811911f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3797db18-5c70-4453-838e-542d56060373">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="4527a400-561c-4192-9cf8-d96ca4b32a20">
+  <ErrorConfiguration dwd:design-time-name="821c9a3a-18ae-43f3-a827-3413ee0aa347">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="53b157e5-c70f-4abc-8081-e79f42fc391f">
+    <Translation dwd:design-time-name="e8470dee-0ee2-4404-a45e-71aa1298c5be">
       <Language>1045</Language>
       <Caption>Klienci</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="669373f6-7c5f-411f-a97d-02ea3f117fcf">
+    <Attribute dwd:design-time-name="2838df3b-5cce-46aa-8daa-a7f0d3acbdd6">
       <ID>Customer Key</ID>
       <Name>Customer Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1b3af478-fa73-4259-be9c-e66a2e7fb28a">
+        <KeyColumn dwd:design-time-name="c50d0828-5653-480b-bd18-9b5ca2232333">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6313e5ff-16b5-42eb-839d-6209129ddb4c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18945d29-38bd-45df-92c4-b22339e5440a">
             <TableID>olap_vDimCustomer</TableID>
             <ColumnID>Customer_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="93c7b37a-85e3-48f6-aaea-a67ae2fcde81">
+      <NameColumn dwd:design-time-name="3e6e276d-b610-4c1f-a3b5-d3977ef3fbc7">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a34f469b-364b-48be-8400-d406a091a0c0">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="11506fdd-7b6c-4f07-bdc8-edcf42c67fef">
           <TableID>olap_vDimCustomer</TableID>
           <ColumnID>Customer</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="3100ff15-636e-4898-bf0d-32f383071910">
+        <Translation dwd:design-time-name="fa011667-26a5-4dc5-beab-ea54498a3233">
           <Language>1045</Language>
           <Caption>Klient</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2f55fa8e-ea0d-4e6d-bfd0-b71321db8dee">
+        <AttributeRelationship dwd:design-time-name="b0e670d2-c65e-40c2-a57c-cde97fba2390">
           <AttributeID>Buying Group</AttributeID>
           <Name>Buying Group</Name>
         </AttributeRelationship>
@@ -149,14 +149,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ac0c24ff-d71d-4240-bdd6-13c265fadbdd">
+    <Attribute dwd:design-time-name="8b031753-1afc-4330-b0bb-fd349f9c2fa1">
       <ID>Category</ID>
       <Name>Category</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="363e04c8-63b4-426c-8dc3-c3214707fe92">
+        <KeyColumn dwd:design-time-name="f3e125c8-d027-46aa-9615-7d3842133b25">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bae07946-c8ca-435a-8951-ed8f7b51903a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="065c5c5c-f8dc-450f-b5b2-d8f153b81b9d">
             <TableID>olap_vDimCustomer</TableID>
             <ColumnID>Category</ColumnID>
           </Source>
@@ -167,21 +167,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="865e06ef-8a84-4a54-a2e9-c3adf509c284">
+    <Attribute dwd:design-time-name="9f0498a9-2979-48d6-bb4e-f6bfd5d10a77">
       <ID>Buying Group</ID>
       <Name>Buying Group</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="89fddeb2-b063-4e7b-aab0-1c620998ab5f">
+        <KeyColumn dwd:design-time-name="eb335173-6457-47a9-831e-9ec092227355">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2fcd3620-2aae-4e4e-9e6b-9bdc250bbcad">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74c17536-60c4-4e5e-80a0-154e9bf2531a">
             <TableID>olap_vDimCustomer</TableID>
             <ColumnID>Buying_x0020_Group</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="3d17228c-d16b-4c28-ada3-eb84ca249afb">
+        <AttributeRelationship dwd:design-time-name="20218d16-e4f8-48be-9305-b99cacbd5187">
           <AttributeID>Category</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Category</Name>
@@ -194,27 +194,27 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="5b162f7c-cb76-4975-896e-fe77ca3f2901">
+    <Hierarchy dwd:design-time-name="2256aed6-3c50-49af-9c1c-a779cda0c4ad">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="ca9fd0e7-b6c6-40f5-ae3c-cef977b59a60">
+        <Level dwd:design-time-name="f6f17f41-58ed-4633-8822-dfca51b8b4a2">
           <ID>Category</ID>
           <Name>Category</Name>
           <SourceAttributeID>Category</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="62f49f49-9788-4a3c-aeac-a51d172f734b">
+            <Translation dwd:design-time-name="fa3c422f-df5c-4050-abb2-2b3485e0ffae">
               <Language>1045</Language>
               <Caption>Kategoria</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="7fef92fb-9986-49b2-8571-690de12e9f6d">
+        <Level dwd:design-time-name="684b4695-22a7-4c63-8d99-3000da7af605">
           <ID>Buying Group</ID>
           <Name>Buying Group</Name>
           <SourceAttributeID>Buying Group</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="9a72cfc7-7e5b-4b52-af5a-49aa326270ef">
+            <Translation dwd:design-time-name="2d2f4681-1bb1-41a7-8f9a-b55113def70f">
               <Language>1045</Language>
               <Caption>GrupaNabywcza</Caption>
             </Translation>

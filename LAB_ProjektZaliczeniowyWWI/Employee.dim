@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ec9ed3e-6f56-4c3f-951a-7c5b48a3df68" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="560cab95-f74e-43d2-a1bc-a89b22a766db" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimEmployee</ID>
-  <Name>DimEmployee</Name>
+  <Name>Employee</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -84,51 +84,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="69fffef5-ad44-4665-90e0-3725051a970e">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4d867106-a36a-4c11-86cf-5e2188353fa9">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="b769397c-cf8d-4677-80d2-888193f5c000">
+  <ErrorConfiguration dwd:design-time-name="51a556bb-c3a7-40e3-8bbb-8346e46986df">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="d3900987-5e98-4a3c-a3e5-3200e095e9e5">
+    <Translation dwd:design-time-name="0588e3e4-53db-46ef-a01d-bcaf9e16c232">
       <Language>1045</Language>
       <Caption>Pracownicy</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="b2b18ec5-667b-4585-8c3d-6eaf8a376ab7">
+    <Attribute dwd:design-time-name="d47aa576-9060-4d29-8de5-d2bf0222fa62">
       <ID>Employee Key</ID>
       <Name>Employee Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d2f79b63-d426-4dc7-af2f-843073e3d8e8">
+        <KeyColumn dwd:design-time-name="d1608169-30d6-44ae-8ca8-a184ada4eb95">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="11be48b3-cc61-4561-af6e-aabdea86c369">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="048181e4-3d19-48f9-aba3-97511825a531">
             <TableID>olap_vDimEmployee</TableID>
             <ColumnID>Employee_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="2042f240-1856-40b4-8e85-68247664bedc">
+      <NameColumn dwd:design-time-name="f2e2b7f8-cb1e-4daf-a066-062f1944364e">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2202221a-1085-4106-8f44-5d0fadffd3a0">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a01b5c37-0093-45fe-9b4e-a4898582ce2a">
           <TableID>olap_vDimEmployee</TableID>
           <ColumnID>Employee</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="322b58c5-5465-4da4-b0d7-63b1fba6da85">
+        <Translation dwd:design-time-name="90cb2588-2e0b-43da-b44d-4038efeade68">
           <Language>1045</Language>
           <Caption>Pracownik</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="75414c94-c47a-464e-b25b-2e48f14b129f">
+        <AttributeRelationship dwd:design-time-name="408e5116-fa02-4146-9226-949c0b8ce16d">
           <AttributeID>Is Salesperson</AttributeID>
           <Name>Is Salesperson</Name>
         </AttributeRelationship>
@@ -136,20 +136,20 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1740d41f-0aaf-4809-9ac1-f2fabd0b9eab">
+    <Attribute dwd:design-time-name="79a2a49c-7185-4b7d-b81e-cc520f678f82">
       <ID>Is Salesperson</ID>
       <Name>Is Salesperson</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6fa74b55-7815-42df-be4a-8d51dd86499a">
+        <KeyColumn dwd:design-time-name="fe596c3f-d3da-4aa2-b4de-8af654a1b3ad">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a1f0638-46b4-4fa1-a28c-18ebf09b92e5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2df9c496-970c-4fb1-8587-e4f8bc3bf954">
             <TableID>olap_vDimEmployee</TableID>
             <ColumnID>Is_x0020_Salesperson</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="7708e795-3f58-4b4c-8a48-3f610ee90397">
+        <Translation dwd:design-time-name="d42e87e3-a3f8-45c1-8fe5-958791cae8f3">
           <Language>1045</Language>
           <Caption>CzySprzedawca</Caption>
         </Translation>

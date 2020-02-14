@@ -20,28 +20,28 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DimCity.dim</Name>
-      <FullPath>DimCity.dim</FullPath>
+      <Name>City.dim</Name>
+      <FullPath>City.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimCustomer.dim</Name>
-      <FullPath>DimCustomer.dim</FullPath>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimEmployee.dim</Name>
-      <FullPath>DimEmployee.dim</FullPath>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimStockItem.dim</Name>
-      <FullPath>DimStockItem.dim</FullPath>
+      <Name>StockItem.dim</Name>
+      <FullPath>StockItem.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimSupplier.dim</Name>
-      <FullPath>DimSupplier.dim</FullPath>
+      <Name>Supplier.dim</Name>
+      <FullPath>Supplier.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimDate.dim</Name>
-      <FullPath>DimDate.dim</FullPath>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
